@@ -1,0 +1,58 @@
+
+
+.vending-machine{ 
+    width:450px    
+}
+.container{
+    margin-top: 100px;
+}
+.home{
+    
+    align-items: center;
+}
+div .link-list-container{
+    background-color: rgba(255, 255, 255, 0.30);
+    border-radius: 10px;
+   
+    height: 200px;
+    width: 300px;
+    text-align: center;
+    font-weight: 700;
+    text-decoration: none;
+    color: rgb(250, 121, 114);
+}
+
+.list-group{
+    padding-top: 40px;
+}
+
+.list-group a:hover{
+    color:#e3b064;
+    text-decoration: none;
+    
+
+}
+
+.greeting{
+    background-color: rgba(255, 255, 255, 0.30);
+    border-radius: 10px;
+    height: 200px;
+    width: 300px;
+    font-weight: 700;
+    color: rgb(200, 94, 84);;
+}
+
+h3{
+    padding: 25px;
+    display: flex;
+    text-wrap: balance;
+    line-height: 40px;
+}
+
+a {
+    text-decoration: none;
+    font-size: larger;
+    color : rgb(200, 94, 84);
+    line-height: 40px;
+
+}

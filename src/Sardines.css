@@ -1,0 +1,35 @@
+.sardines{
+    background-image: url('./Pictures/sardines.gif');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    opacity: 0.7;
+}
+
+.text-box{
+    background-color: rgba(0, 0, 0, 0.518);
+    width: 425px;
+    height: 100px;
+    border-radius: 10px;
+
+    
+
+}
+.text-box p{
+    padding-top:25px ;
+ font-size: 1.25rem;
+ font-weight: 800;
+ color: RED;
+ width: 350px;
+ margin: auto;
+}
+#s-goback{
+    color: white;
+}
+#s-goback:hover{
+    text-decoration: none;
+    color: salmon
+}

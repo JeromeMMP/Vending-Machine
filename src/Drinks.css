@@ -1,0 +1,56 @@
+.CocaCola{
+    margin: 80px;
+    width: 150px;
+    animation: rotation 2s infinite linear;
+    display: inline-block;
+  }
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .drinks-container{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: 150px;
+  }
+
+  .drinks-card{
+    background-color: rgba(255, 255, 255, 0.30);
+    border-radius: 10px;
+    height: 100px;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(235, 12, 0);
+    line-height: 1rem;
+  }
+  p{
+    padding-top:30px; 
+    font-weight: bold;
+    margin: 0px;
+}
+
+  .drinks-card a{ 
+    color: black;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.drinks-card a:hover{
+  color: whitesmoke;
+  text-decoration:  none;
+}
+
+
+
+
+
+
+  
+ 
