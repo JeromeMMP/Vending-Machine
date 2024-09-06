@@ -1,9 +1,12 @@
 {
+  "homepage": "https://jeromemmp.github.io/Vending-Machine/",
   "name": "react-router-vending-machine",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy":"npm run build",
+    "deply": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
