@@ -3,7 +3,7 @@ import Navbar from './Navbar'
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
-import Home from './home'
+import Home from './Home'
 import Drinks from './Drinks'
 import Snacks from './Snacks'
 import Sardines from './Sardines'
